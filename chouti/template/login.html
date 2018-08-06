@@ -1,0 +1,166 @@
+<div class="login">
+    <div class="mtk">
+            <div class="login-header">
+                <p class="p-login">登陆</p>
+                <p class="p-register">注册</p>
+                <p class="p-close">x</p>
+            </div>
+            <div class="login-body">
+                <!--登陆input-->
+                <div>
+                    <!--选择登陆方式-->
+                    <div class="login-nav">
+                        <span class="login-active" id="phone-login" onclick="login_methods();">手机号登陆</span>
+                        |
+                        <span id="user-login" onclick="login_methods();">用户名登陆</span>
+                    </div>
+
+                    <div id="ph">
+                        <!--手机号登陆-->
+                        <div>
+                            <div class="input">
+                                <!--选择国家地区-->
+                                <div>
+                                    <select>
+                                        <option value="86">中国（+86）</option>
+                                        <option value="852">中国香港（+852）</option>
+                                        <option value="853">中国澳门（+853）</option>
+                                        <option value="886">中国台湾（+886）</option>
+                                        <option value="1">美国（+1）</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <form action="#" class="form-phone-login">
+                                <div>
+                                    <input type="text" name="phone" id="phone" placeholder="手机号" class="phone">
+                                </div>
+                                <div>
+                                    <input type="text" name="phone-pwd" id="phone-pwd" placeholder="密码" class="phone-pwd">
+                                </div>
+                            </form>
+                        </div>
+
+                        <!--用户名登陆-->
+                        <div style="display: none">
+                            <form action="#" class="form-account-login">
+                                <div>
+                                    <input type="text" name="username" id="username" placeholder="用户名" class="username">
+                                </div>
+                                <div>
+                                    <input type="password" name="user-pwd" id="user-pwd" placeholder="密码" class="user-pwd">
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+
+                    <!--登陆-->
+                    <div>
+                        <div class="check-auto">
+                            <span>
+                                <input type="checkbox" checked >
+                                一个月内自动登陆
+                            </span>
+                            <span style="position: absolute;right: 70px;top: 0;">
+                                <a href="#">忘记密码?</a>
+                            </span>
+                        </div>
+                        <!--确认按钮-->
+                        <div class="btn-111">
+                            <span class="btn-1">确认</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--注册input-->
+                <div>
+                    <!--选择登陆方式-->
+                    <div class="login-nav">
+                        <span class="login-active">1 填写手机号</span>
+                        >
+                        <span>2 填写基本资料</span>
+                    </div>
+                    <!--手机号登陆-->
+                    <div>
+                        <div class="input">
+                            <!--选择国家地区-->
+                            <div>
+                                <select>
+                                    <option value="86">中国（+86）</option>
+                                    <option value="852">中国香港（+852）</option>
+                                    <option value="853">中国澳门（+853）</option>
+                                    <option value="886">中国台湾（+886）</option>
+                                    <option value="1">美国（+1）</option>
+                                </select>
+                            </div>
+                        </div>
+                        <form action="#" class="form-phone-login register">
+                            <div>
+                                <input type="text" name="phone" style="" placeholder="手机号" class="phone">
+                                <div class="get-code">获取验证码</div>
+                                <div class="text-right">
+                                    <span>
+                                        收不到短信？
+                                        <a href="#" >获取语音验证码</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div>
+                                <input type="text" name="phone-pwd" placeholder="验证码" class="phone-pwd">
+                            </div>
+                            <div>
+                                <input type="password" name="phone-pwd" placeholder="密码" class="phone-pwd">
+                            </div>
+                        </form>
+                    </div>
+
+                    <!--用户名登陆-->
+                    <div style="display: none">
+                        <form action="#" class="form-account-login">
+                            <div>
+                                <input type="text" name="username" placeholder="用户名" class="username">
+                            </div>
+                            <div>
+                                <input type="password" name="user-pwd" placeholder="密码" class="user-pwd">
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="btn-111">
+                        <span class="btn-1">下一步</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+    <script>
+        var login_method = document.getElementsByClassName("login-nav")[0];
+        var spans = login_method.children;
+        function login_methods() {
+            var flag;
+            for(var i=0; i<spans.length; i++){
+                if(spans[i].className==="login-active"){
+                    spans[i].classList.remove("login-active")
+                }else if(spans[i].className===""){
+                    flag = i;
+                    spans[i].classList.add("login-active")
+                }
+            }
+
+            var inputs = document.getElementById('ph').children;
+            for(var i=0;i<inputs.length;i++){
+                inputs[i].style.display = "none";
+            }
+            inputs[flag].style.display = "block";
+        }
+
+        var close_ = document.getElementsByClassName("p-close")[0];
+        close_.onclick = function () {
+            var mtk = document.getElementsByClassName("login")[0];
+            mtk.parentNode.removeChild(mtk)
+        }
+
+    </script>

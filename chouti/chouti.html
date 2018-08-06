@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--以最高的ie浏览器渲染-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--视口的设置  移动设备优先 支持移动端 在多个设备上适应  PC iphone 安卓等-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>抽屉新热榜-聚合每日热门、搞笑、有趣资</title>
+
+    <link rel="stylesheet" href="static/chouti.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+</head>
+<body>
+<div class="pg-header">
+    <div class="head-content">
+        <a href="javascript:;" class="logo"></a>
+
+        <div class="menu">
+            <a href="#" class="nav-a active">全部</a>
+            <a href="#" class="nav-a">42区</a>
+            <a href="#" class="nav-a">段子</a>
+            <a href="#" class="nav-a">图片</a>
+            <a href="#" class="nav-a">挨踢1024</a>
+            <a href="#" class="nav-a">你问我答</a>
+        </div>
+
+        <div class="search">
+            <form action="#">
+                <input type="text">
+                <a href="javascript:;">
+                    <span class="search-pic"></span>
+                </a>
+            </form>
+        </div>
+        <div class="login-register">
+            <a href="javascript:;" class="login-btn">注册</a>
+            <a href="javascript:;" class="login-btn">登陆</a>
+        </div>
+    </div>
+</div>
+<div id="i1"></div>
+
+
+<div class="pg-body">
+    <div class="body-content">
+        <div class="body-left">
+            <!--最热 发现 人类发布-->
+            <div class="nav-top">
+                <div class="nav-top-left">
+                    <a href="#" class="active hot-btn">最新</a>
+                    <a href="#" class="new-btn">最热</a>
+                    <a href="#" class="person-btn">人类发布</a>
+                </div>
+                <div class="nav-top-mid">
+                    <a href="#" class="active">即时排序</a>
+                    <a href="#">24小时</a>
+                    <a href="#">3天</a>
+                </div>
+                <a href="javascript:;" class="publish-btn">
+                    <span class="glyphicon glyphicon-plus n1"></span>
+                    <span class="n2">发布</span>
+                </a>
+            </div>
+            <!--用户发帖-->
+            <div class="user-publish">
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="./pic/item2.jpg" alt="抽屉新热榜" class="item-img">
+                    </div>
+                    <div class="item-content">
+                        <div class="part-1">
+                            <a href="javascript:;">
+                                【美国要求所有国家11月停止进口伊朗石油否则制裁】这次美国不会给予任何国家豁免。负责此事的美国国务院高级官员已赴欧亚多个国家寻求支持，并将前往印度和中国。
+                            </a>
+                            <span class="content-source">-news.163.com</span>
+                            <a href="" class="n2">
+                                <span class="content-kind">42区</span>
+                            </a>
+                        </div>
+                        <div class="summary">
+
+                        </div>
+                        <div class="part-2">
+                            <a href="javascript:;" class="dig-a">
+                                <span class="hand-icon icon-dig"></span>
+                                <b class="b">20</b>
+                                <span class="fade-span">+1</span>
+                                <span class="fade-span-1">-1</span>
+                            </a>
+                            <a href="javascript:;" class="discus-a">
+                                <!--评论-->
+                                <span class="hand-icon icon-discus"></span>
+                                <b>107</b>
+                            </a>
+                            <a href="javascript:;" class="collect-a">
+                                <span class="hand-icon icon-collect"></span>
+                                <b>私藏</b>
+                            </a>
+                            <a href="#" class="user-a">
+                                    <span>
+                                        <img src="./pic/wangyi.png">
+                                    </span>
+                                <b>网易国内</b>
+                            </a>
+                            <span class="left time-into">
+                                    <a href="#" class="time-a">
+                                        <b>5小时29分钟前</b>
+                                    </a>
+                                    <i>入热榜</i>
+                                </span>
+                            <span class="share-to">
+                                    <i>分享到</i>
+                                    <span class="share-icon">
+                                        <a href="#" class="icon-sina"></a>
+                                        <a href="#" class="icon-douban"></a>
+                                        <a href="#" class="icon-qqzone"></a>
+                                        <a href="#" class="icon-renren"></a>
+                                    </span>
+                                </span>
+                        </div>
+                        <!--评论区-->
+                        <div class="comment-box-area">
+                            <div class="arrow_ pinglun"></div>
+                            <a href="javascript:;" class="close-comment pinglun"></a>
+                            <div class="comment-box">
+                                <ul class="u1">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                </ul>
+                                <div class="enter-comment">
+                                    <div class="comment-text">
+                                        <textarea name="repeat" class="repeat-base repeat"></textarea>
+                                    </div>
+                                    <div class="btn-111 enter-repeat">
+                                        <span class="enter-pinglun">评论</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="./pic/item2.jpg" alt="抽屉新热榜" class="item-img">
+                    </div>
+                    <div class="item-content">
+                        <div class="part-1">
+                            <a href="javascript:;">
+                                【美国要求所有国家11月停止进口伊朗石油否则制裁】这次美国不会给予任何国家豁免。负责此事的美国国务院高级官员已赴欧亚多个国家寻求支持，并将前往印度和中国。
+                            </a>
+                            <span class="content-source">-news.163.com</span>
+                            <a href="" class="n2">
+                                <span class="content-kind">42区</span>
+                            </a>
+                        </div>
+                        <div class="summary">
+
+                        </div>
+                        <div class="part-2">
+                            <a href="javascript:;" class="dig-a">
+                                <span class="hand-icon icon-dig"></span>
+                                <b class="b">20</b>
+                                <span class="fade-span">+1</span>
+                                <span class="fade-span-1">-1</span>
+                            </a>
+                            <a href="javascript:;" class="discus-a">
+                                <!--评论-->
+                                <span class="hand-icon icon-discus"></span>
+                                <b>107</b>
+                            </a>
+                            <a href="javascript:;" class="collect-a">
+                                <span class="hand-icon icon-collect"></span>
+                                <b>私藏</b>
+                            </a>
+                            <a href="#" class="user-a">
+                                    <span>
+                                        <img src="./pic/wangyi.png">
+                                    </span>
+                                <b>网易国内</b>
+                            </a>
+                            <span class="left time-into">
+                                    <a href="#" class="time-a">
+                                        <b>5小时29分钟前</b>
+                                    </a>
+                                    <i>入热榜</i>
+                                </span>
+                            <span class="share-to">
+                                    <i>分享到</i>
+                                    <span class="share-icon">
+                                        <a href="#" class="icon-sina"></a>
+                                        <a href="#" class="icon-douban"></a>
+                                        <a href="#" class="icon-qqzone"></a>
+                                        <a href="#" class="icon-renren"></a>
+                                    </span>
+                                </span>
+                        </div>
+                        <!--评论区-->
+                        <div class="comment-box-area">
+                            <div class="arrow_ pinglun"></div>
+                            <a href="javascript:;" class="close-comment pinglun"></a>
+                            <div class="comment-box">
+                                <ul class="u1">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                </ul>
+                                <div class="enter-comment">
+                                    <div class="comment-text">
+                                        <textarea name="repeat" class="repeat-base repeat"></textarea>
+                                    </div>
+                                    <div class="btn-111 enter-repeat">
+                                        <span class="enter-pinglun">评论</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="./pic/item2.jpg" alt="抽屉新热榜" class="item-img">
+                    </div>
+                    <div class="item-content">
+                        <div class="part-1">
+                            <a href="javascript:;">
+                                【美国要求所有国家11月停止进口伊朗石油否则制裁】这次美国不会给予任何国家豁免。负责此事的美国国务院高级官员已赴欧亚多个国家寻求支持，并将前往印度和中国。
+                            </a>
+                            <span class="content-source">-news.163.com</span>
+                            <a href="" class="n2">
+                                <span class="content-kind">42区</span>
+                            </a>
+                        </div>
+                        <div class="summary">
+
+                        </div>
+                        <div class="part-2">
+                            <a href="javascript:;" class="dig-a">
+                                <span class="hand-icon icon-dig"></span>
+                                <b class="b">20</b>
+                                <span class="fade-span">+1</span>
+                                <span class="fade-span-1">-1</span>
+                            </a>
+                            <a href="javascript:;" class="discus-a">
+                                <!--评论-->
+                                <span class="hand-icon icon-discus"></span>
+                                <b>107</b>
+                            </a>
+                            <a href="javascript:;" class="collect-a">
+                                <span class="hand-icon icon-collect"></span>
+                                <b>私藏</b>
+                            </a>
+                            <a href="#" class="user-a">
+                                    <span>
+                                        <img src="./pic/wangyi.png">
+                                    </span>
+                                <b>网易国内</b>
+                            </a>
+                            <span class="left time-into">
+                                    <a href="#" class="time-a">
+                                        <b>5小时29分钟前</b>
+                                    </a>
+                                    <i>入热榜</i>
+                                </span>
+                            <span class="share-to">
+                                    <i>分享到</i>
+                                    <span class="share-icon">
+                                        <a href="#" class="icon-sina"></a>
+                                        <a href="#" class="icon-douban"></a>
+                                        <a href="#" class="icon-qqzone"></a>
+                                        <a href="#" class="icon-renren"></a>
+                                    </span>
+                                </span>
+                        </div>
+                        <!--评论区-->
+                        <div class="comment-box-area">
+                            <div class="arrow_ pinglun"></div>
+                            <a href="javascript:;" class="close-comment pinglun"></a>
+                            <div class="comment-box">
+                                <ul class="u1">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                </ul>
+                                <div class="enter-comment">
+                                    <div class="comment-text">
+                                        <textarea name="repeat" class="repeat-base repeat"></textarea>
+                                    </div>
+                                    <div class="btn-111 enter-repeat">
+                                        <span class="enter-pinglun">评论</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="./pic/item2.jpg" alt="抽屉新热榜" class="item-img">
+                    </div>
+                    <div class="item-content">
+                        <div class="part-1">
+                            <a href="javascript:;">
+                                【美国要求所有国家11月停止进口伊朗石油否则制裁】这次美国不会给予任何国家豁免。负责此事的美国国务院高级官员已赴欧亚多个国家寻求支持，并将前往印度和中国。
+                            </a>
+                            <span class="content-source">-news.163.com</span>
+                            <a href="" class="n2">
+                                <span class="content-kind">42区</span>
+                            </a>
+                        </div>
+                        <div class="summary">
+
+                        </div>
+                        <div class="part-2">
+                            <a href="javascript:;" class="dig-a">
+                                <span class="hand-icon icon-dig"></span>
+                                <b class="b">20</b>
+                                <span class="fade-span">+1</span>
+                                <span class="fade-span-1">-1</span>
+                            </a>
+                            <a href="javascript:;" class="discus-a">
+                                <!--评论-->
+                                <span class="hand-icon icon-discus"></span>
+                                <b>107</b>
+                            </a>
+                            <a href="javascript:;" class="collect-a">
+                                <span class="hand-icon icon-collect"></span>
+                                <b>私藏</b>
+                            </a>
+                            <a href="#" class="user-a">
+                                    <span>
+                                        <img src="./pic/wangyi.png">
+                                    </span>
+                                <b>网易国内</b>
+                            </a>
+                            <span class="left time-into">
+                                    <a href="#" class="time-a">
+                                        <b>5小时29分钟前</b>
+                                    </a>
+                                    <i>入热榜</i>
+                                </span>
+                            <span class="share-to">
+                                    <i>分享到</i>
+                                    <span class="share-icon">
+                                        <a href="#" class="icon-sina"></a>
+                                        <a href="#" class="icon-douban"></a>
+                                        <a href="#" class="icon-qqzone"></a>
+                                        <a href="#" class="icon-renren"></a>
+                                    </span>
+                                </span>
+                        </div>
+                        <!--评论区-->
+                        <div class="comment-box-area">
+                            <div class="arrow_ pinglun"></div>
+                            <a href="javascript:;" class="close-comment pinglun"></a>
+                            <div class="comment-box">
+                                <ul class="u1">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                </ul>
+                                <div class="enter-comment">
+                                    <div class="comment-text">
+                                        <textarea name="repeat" class="repeat-base repeat"></textarea>
+                                    </div>
+                                    <div class="btn-111 enter-repeat">
+                                        <span class="enter-pinglun">评论</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="./pic/item2.jpg" alt="抽屉新热榜" class="item-img">
+                    </div>
+                    <div class="item-content">
+                        <div class="part-1">
+                            <a href="javascript:;">
+                                【美国要求所有国家11月停止进口伊朗石油否则制裁】这次美国不会给予任何国家豁免。负责此事的美国国务院高级官员已赴欧亚多个国家寻求支持，并将前往印度和中国。
+                            </a>
+                            <span class="content-source">-news.163.com</span>
+                            <a href="" class="n2">
+                                <span class="content-kind">42区</span>
+                            </a>
+                        </div>
+                        <div class="summary">
+
+                        </div>
+                        <div class="part-2">
+                            <a href="javascript:;" class="dig-a">
+                                <span class="hand-icon icon-dig"></span>
+                                <b class="b">20</b>
+                                <span class="fade-span">+1</span>
+                                <span class="fade-span-1">-1</span>
+                            </a>
+                            <a href="javascript:;" class="discus-a">
+                                <!--评论-->
+                                <span class="hand-icon icon-discus"></span>
+                                <b>107</b>
+                            </a>
+                            <a href="javascript:;" class="collect-a">
+                                <span class="hand-icon icon-collect"></span>
+                                <b>私藏</b>
+                            </a>
+                            <a href="#" class="user-a">
+                                    <span>
+                                        <img src="./pic/wangyi.png">
+                                    </span>
+                                <b>网易国内</b>
+                            </a>
+                            <span class="left time-into">
+                                    <a href="#" class="time-a">
+                                        <b>5小时29分钟前</b>
+                                    </a>
+                                    <i>入热榜</i>
+                                </span>
+                            <span class="share-to">
+                                    <i>分享到</i>
+                                    <span class="share-icon">
+                                        <a href="#" class="icon-sina"></a>
+                                        <a href="#" class="icon-douban"></a>
+                                        <a href="#" class="icon-qqzone"></a>
+                                        <a href="#" class="icon-renren"></a>
+                                    </span>
+                                </span>
+                        </div>
+                        <!--评论区-->
+                        <div class="comment-box-area">
+                            <div class="arrow_ pinglun"></div>
+                            <a href="javascript:;" class="close-comment pinglun"></a>
+                            <div class="comment-box">
+                                <ul class="u1">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                </ul>
+                                <div class="enter-comment">
+                                    <div class="comment-text">
+                                        <textarea name="repeat" class="repeat-base repeat"></textarea>
+                                    </div>
+                                    <div class="btn-111 enter-repeat">
+                                        <span class="enter-pinglun">评论</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="./pic/item2.jpg" alt="抽屉新热榜" class="item-img">
+                    </div>
+                    <div class="item-content">
+                        <div class="part-1">
+                            <a href="javascript:;">
+                                【美国要求所有国家11月停止进口伊朗石油否则制裁】这次美国不会给予任何国家豁免。负责此事的美国国务院高级官员已赴欧亚多个国家寻求支持，并将前往印度和中国。
+                            </a>
+                            <span class="content-source">-news.163.com</span>
+                            <a href="" class="n2">
+                                <span class="content-kind">42区</span>
+                            </a>
+                        </div>
+                        <div class="summary">
+
+                        </div>
+                        <div class="part-2">
+                            <a href="javascript:;" class="dig-a">
+                                <span class="hand-icon icon-dig"></span>
+                                <b class="b">20</b>
+                                <span class="fade-span">+1</span>
+                                <span class="fade-span-1">-1</span>
+                            </a>
+                            <a href="javascript:;" class="discus-a">
+                                <!--评论-->
+                                <span class="hand-icon icon-discus"></span>
+                                <b>107</b>
+                            </a>
+                            <a href="javascript:;" class="collect-a">
+                                <span class="hand-icon icon-collect"></span>
+                                <b>私藏</b>
+                            </a>
+                            <a href="#" class="user-a">
+                                    <span>
+                                        <img src="./pic/wangyi.png">
+                                    </span>
+                                <b>网易国内</b>
+                            </a>
+                            <span class="left time-into">
+                                    <a href="#" class="time-a">
+                                        <b>5小时29分钟前</b>
+                                    </a>
+                                    <i>入热榜</i>
+                                </span>
+                            <span class="share-to">
+                                    <i>分享到</i>
+                                    <span class="share-icon">
+                                        <a href="#" class="icon-sina"></a>
+                                        <a href="#" class="icon-douban"></a>
+                                        <a href="#" class="icon-qqzone"></a>
+                                        <a href="#" class="icon-renren"></a>
+                                    </span>
+                                </span>
+                        </div>
+                        <!--评论区-->
+                        <div class="comment-box-area">
+                            <div class="arrow_ pinglun"></div>
+                            <a href="javascript:;" class="close-comment pinglun"></a>
+                            <div class="comment-box">
+                                <ul class="u1">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                    <li class="l1">hahahahaha</li>
+                                    <hr class="hh">
+                                </ul>
+                                <div class="enter-comment">
+                                    <div class="comment-text">
+                                        <textarea name="repeat" class="repeat-base repeat"></textarea>
+                                    </div>
+                                    <div class="btn-111 enter-repeat">
+                                        <span class="enter-pinglun">评论</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--发布用模板-->
+                <div class="item" style="display: none">
+                    <div class="item-pic">
+                        <img src="./pic/default.jpg" alt="抽屉新热榜" class="item-img">
+                    </div>
+                    <div class="item-content">
+                        <div class="part-1">
+                            <a href="javascript:;">
+                                【美国要求所有国家11月停止进口伊朗石油否则制裁】这次美国不会给予任何国家豁免。负责此事的美国国务院高级官员已赴欧亚多个国家寻求支持，并将前往印度和中国。
+                            </a>
+                            <span class="content-source">-news.163.com</span>
+                            <a href="" class="n2" id="n2">
+                                <span class="content-kind">42区</span>
+                            </a>
+                        </div>
+                        <div class="summary">
+
+                        </div>
+                        <div class="part-2">
+                            <a href="javascript:;" class="dig-a">
+                                <span class="hand-icon icon-dig"></span>
+                                <b class="b">20</b>
+                                <span class="fade-span">+1</span>
+                                <span class="fade-span-1">-1</span>
+                            </a>
+                            <a href="javascript:;" class="discus-a">
+                                <!--评论-->
+                                <span class="hand-icon icon-discus"></span>
+                                <b>0</b>
+                            </a>
+                            <a href="javascript:;" class="collect-a">
+                                <span class="hand-icon icon-collect"></span>
+                                <b>私藏</b>
+                            </a>
+                            <a href="#" class="user-a">
+                                    <span>
+                                        <img src="./pic/wangyi.png">
+                                    </span>
+                                <b>匿名用户</b>
+                            </a>
+                            <span class="left time-into">
+                                    <a href="#" class="time-a">
+                                        <b>0小时1分钟前</b>
+                                    </a>
+                                    <i>入热榜</i>
+                                </span>
+                            <span class="share-to">
+                                    <i>分享到</i>
+                                    <span class="share-icon">
+                                        <a href="#" class="icon-sina"></a>
+                                        <a href="#" class="icon-douban"></a>
+                                        <a href="#" class="icon-qqzone"></a>
+                                        <a href="#" class="icon-renren"></a>
+                                    </span>
+                                </span>
+                        </div>
+                        <!--评论区-->
+                        <div class="comment-box-area">
+                            <div class="arrow_ pinglun"></div>
+                            <a href="javascript:;" class="close-comment pinglun"></a>
+                            <div class="comment-box">
+                                <ul class="u1">
+
+                                </ul>
+                                <div class="enter-comment">
+                                    <div class="comment-text">
+                                        <textarea name="repeat" class="repeat-base repeat"></textarea>
+                                    </div>
+                                    <div class="btn-111 enter-repeat">
+                                        <span class="enter-pinglun">评论</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--分页-->
+                <nav aria-label="Page navigation">
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">上一页</span>
+                            </a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a href="#">7</a></li>
+                        <li><a href="#">8</a></li>
+                        <li><a href="#">9</a></li>
+                        <li><a href="#">10</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">下一页</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+
+            <!--右侧广告-->
+        <div class="body-right">
+            <div>
+                <a href="#" class="r-img-1">
+                    <img src="./pic/12377.png" alt="">
+                </a>
+                <a href="#" class="r-img-2">
+                    <img src="./pic/jubao.png" alt="">
+                </a>
+            </div>
+            <div class="r-d-1">
+                <a href="#">如何避免自己被封号</a>
+            </div>
+            <a href="#" class="r-img-3">
+                <img src="./pic/homepage_download.png" alt="">
+            </a>
+            <div class="hot-top">
+                <em class="hot-em">24小时全部 <span>TOP 10</span></em>
+                <div class="hot-top-title">
+                    <a href="javascript:;">最热榜</a>
+                    <em></em>
+                </div>
+                <div class="hot-news">
+                    <div class="hot-item">
+                        <div class="hot-points">
+                            <a href="#">581</a>
+                        </div>
+                        <a href="#">燥</a>
+                    </div>
+                    <hr class="hh">
+
+                    <div class="hot-item">
+                        <div class="hot-points">
+                            <a href="#">296</a>
+                        </div>
+                        <a href="#">我还搞了一个从图片中提取文字的小程序，也有专门针对表格识别的功能 （年龄识别，花草，鉴黄...） 欢迎大家试用！</a>
+                    </div>
+                    <hr class="hh">
+
+                    <div class="hot-item">
+                        <div class="hot-points">
+                            <a href="#">225</a>
+                        </div>
+                        <a href="#">@傅峙峰 ：给上海交警点赞！不输入，更重要的是发信息告知 ​</a>
+                    </div>
+                    <hr class="hh">
+
+                    <div class="hot-item">
+                        <div class="hot-points">
+                            <a href="#">219</a>
+                        </div>
+                        <a href="#">【近万瓶污水在北京展出：你眼中的污水村民喝了十多年】榆林小壕兔乡村民十几年来一直喝着淡黄色、有味道的污水。艺术家坚果兄弟买下一万瓶纯净水，与农民交换，并将一万瓶污水运到北京和西安，进行展览，希望借此引起相关部门重视。展览第二天，陕西环保部门宣布将对小壕兔乡水污染事件进行调查。</a>
+                    </div>
+                    <hr class="hh">
+
+                    <div class="hot-item">
+                        <div class="hot-points">
+                            <a href="#">185</a>
+                        </div>
+                        <a href="#">外国夫妇带着两个女儿，来收养中国小男孩。第一次见面，姐妹俩十分兴奋地欢迎新成员，夫妇也差点激动哭了。小男孩起初很抗拒，又哭又推，但最后还是露出了可爱的笑脸。</a>
+                    </div>
+                    <hr class="hh">
+
+                    <div class="hot-item">
+                        <div class="hot-points">
+                            <a href="#">168</a>
+                        </div>
+                        <a href="#">一位学工程的小哥研发出的“手机防摔安全气囊”……平时收起来只是个手机壳的样子，但当手机落下时四个支脚就会自动弹出，防止手机啪叽一下摔碎。</a>
+                    </div>
+                    <hr class="hh">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pg-foot"></div>
+
+<!--返回顶部-->
+<a href="#" class="scroll-top"></a>
+
+<!--发贴模态对话框开始-->
+<div class="publish">
+    <div class="mtk-p">
+        <div class="publish-header">
+            <p class="p-publish">分享新发现</p>
+            <p class="pb-close">x</p>
+        </div>
+        <div class="publish-body">
+            <div class="pub-nav">
+                <a href="javascript:;" class="tb pub-active">链接</a>
+                <a href="javascript:;" class="tb">文字</a>
+                <a href="javascript:;" class="tb">图片</a>
+            </div>
+            <!--选项卡-->
+            <div class="main-content">
+                <!--链接-->
+                <div class="main-link">
+                    <!--add link-->
+                    <div class="add-link">添加链接</div>
+                    <div class="url">
+                        <div class="url-div">
+                            <input type="text" class="url-input" placeholder="http://">
+                        </div>
+                    </div>
+                    <!--title-->
+                    <div class="main-title">
+                        <div class="link-title">标题</div>
+                        <div class="title-div">
+                            <input type="text" class="title-input">
+                        </div>
+                    </div>
+                    <!--summary-->
+                    <div class="main-summary">
+                        <div class="summary-title">添加摘要（选填）</div>
+                        <div class="summary-div">
+                            <textarea type="text" class="summary-input text-height"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <!--文字-->
+                <div class="main-character">
+                    点击图片试试看
+                </div>
+                <div class="main-img">
+                    目前只能使用默认图片
+                </div>
+            </div>
+            <!--发布 提交-->
+            <div>
+                <!--发布-->
+                <div class="public-to">
+                    <p>发布到：</p>
+                    <span class="public-span public-active">42区</span>
+                    <span class="public-span">段子</span>
+                    <span class="public-span">图片</span>
+                    <span class="public-span">挨踢1024</span>
+                    <span class="public-span">你问我答</span>
+                </div>
+                <!--提交-->
+                <div>
+                    <div class="enter-publish enter-publish-1" id="publish-news">发布</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--发贴模态对话框结束-->
+
+</body>
+<script src="static/jquery-3.2.1.js"></script>
+<script src="static/chouti.js"></script>
+</html>

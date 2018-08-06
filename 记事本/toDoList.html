@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>toDoList</title>
+    <link rel="stylesheet" href="./commons.css">
+</head>
+<body>
+    <div class="pg-head">
+        <div class="header">
+            <label for="content">ToDoList</label>
+            <input type="submit" id="btn">
+            <input type="text" id="content" placeholder="请添加待办事项">
+            <div style="clear: both"></div>
+        </div>
+    </div>
+
+    <div class="pg-body">
+        <h2>正在进行<span id="toDoNum">0</span></h2>
+        <div id="d1"></div>
+
+        <h2>已经完成<span id="doneNum">0</span></h2>
+        <div id="d2"></div>
+
+        <br>
+        <span id="clear">清空</span>
+    </div>
+</body>
+<script src="./commons.js"></script>
+</html>

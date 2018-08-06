@@ -1,0 +1,61 @@
+a{text-decoration: none;}
+img{border: 0}
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+.center{margin: 0 auto}
+body>div{width:1349px}
+.nav-bar{
+    height: 40px;
+    min-width: 1230px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background-color: #333;
+}
+.nav-bar .center a{
+    color: gray; line-height: 40px;
+}
+.nav-bar .center a:hover{color: white;}
+.nav-bar .center .left span{margin: 0 1px;}
+
+
+.pg-header{min-width: 1230px;height: 100px;}
+.pg-header .center .left div{float: left; }
+.pg-header .center ul li{float: left; text-align: center; line-height: 76px}
+.pg-header .center ul li a{color: #333;padding: 0 10px;text-align: center;}
+.pg-header .center ul li a:hover{color: #ff6700;}
+.btn{width: 52px;height: 52px;border: 0;position: absolute;right: 0;opacity: 0;top:50%;margin-top: -24px;}
+.btn:hover{color: #ff6700;opacity: 0.8;background-color: #ff6700;}
+
+.pg-body ul li{height: 42px;}
+.pg-body ul a{display: block; padding-left:30px; width: 204px; line-height: 42px;color: white;}
+.pg-body ul a:hover{background-color: #ff6700;}
+
+.shop>div{width: 234px; height: 339px; float: left;margin-right: 10px;}
+.time{width:46px; height: 46px; line-height: 46px;font-size:25px;color: white;text-align: center;background-color: #3c3c3c;}
+.dosh{padding: 0 5px;line-height: 46px}
+
+.pg-foot{background-color: #f5f5f5; padding-top: 22px;height: 1600px}
+.pg-foot>div{margin: 0 auto; width: 90%;}
+.phone>div{float: left;margin-left: 11px;background-color: white;margin-bottom: 14px;width: 234px;height: 300px;}
+
+.pc{width:980px;}
+.pc>div{float: left;margin-left: 11px;background-color: white;margin-bottom: 14px;width: 234px;height: 300px;}
+
+.hm>div{border-bottom: 1px solid #f5f5f5; background-color: white}
+.hm img{margin:6px 2px;width: 20px;height: 20px}
+
+.foot{background-color: white;}
+.foot li{height: 25px;width: 19.8%;float: left;text-align: center;line-height: 25px;border-left:1px solid #e0e0e0}
+.foot li a{color: black}
+.foot li a:hover{color: #ff6700}
+
+.site-info{background-color: #f5f5f5}
+.p1 a{font-size: 12px;color: black}
+.p1 a:hover{color: #ff6700}
+.p1 span{color: #b0b0b0}
+.p2{color: #757575;font-size: 12px}
+.p2 a{color: #757575;font-size: 12px}
+.p2 a:hover{color: #ff6700}
+.info-pic{margin: 4px 0 0}
+.info-pic img{height: 28px; width: auto}
